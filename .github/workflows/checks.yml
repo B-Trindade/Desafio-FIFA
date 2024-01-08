@@ -21,4 +21,4 @@ jobs:
             python manage.py test"
         # python manage.py wait_for_db &&
       - name: Lint
-        run: docker-compose run --rm backendapp sh -c "flake8"
+        run: docker-compose run --rm backend sh -c "flake8"
